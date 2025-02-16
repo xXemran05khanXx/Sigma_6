@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button in Html Form</title>
+</head>
+<body>
+    <h1>Button in Html Form</h1>
+
+    <!-- Button element outside the form: no action -->
+    <h3>Button element :</h3>
+    <button>Submit</button>
+    <br>
+
+    <form action="/action_page">   
+        <!-- Button element inside the form: default action submit -->
+        <h3>Button element inside the form:</h3>
+        <button>Submit</button>
+    </form>
+
+ 
+     <form action="/action_page">   
+
+        <h3>Button element with type attribute:</h3>
+
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+       <!-- Button element with type attribute -->
+        <button type="reset">Reset</button> 
+        <button type="submit">Submit</button>
+       <!-- Button using input --> 
+        <input type="submit" value="redirect">
+
+    </form>
+
+    <footer style="text-align: center; position: fixed; bottom: 10px; width: 100%; background-color: whitesmoke;">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">Learn More....</a>
+</body>
+</html>
