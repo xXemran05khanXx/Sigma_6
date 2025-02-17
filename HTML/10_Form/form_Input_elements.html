@@ -9,14 +9,55 @@
 
     <form action="/action_page">   
 
-        <!-- Text input -->  
-        Text:     <input type="text"     placeholder="text"> <br>
-        Password: <input type="password" placeholder="password"> <br>
-        Email:    <input type="email"    placeholder="xyz@gmail.com"> <br>
-        Number:   <input type="number"   placeholder="0"> <br>
-        Date:     <input type="date"     placeholder="00/00/0000"> <br>
-        Time:     <input type="time"     placeholder="00:00"> <br>
-        Color:    <input type="color"    placeholder="White"> <br>
+        <!-- input -->  
+        Text:     <input type="text"     placeholder="text"> <br><br>
+        Password: <input type="password" placeholder="password"> <br><br>
+        Email:    <input type="email"    placeholder="xyz@gmail.com"> <br><br>
+        Number:   <input type="number"   placeholder="0"> <br><br>
+        Date:     <input type="date"     placeholder="00/00/0000"> <br><br>
+        Time:     <input type="time"     placeholder="00:00"> <br><br>
+        Color:    <input type="color"    placeholder="White"> <br><br>
+        Rating:   <input type="range"    min="0" max="10" step="1" name="rating"> <br><br>
+        
+        <!--Check-box-->
+        <div>
+         Which soprts do you like : &nbsp;
+                           <!--cricket check-box -->
+           <label for="checkbox" id="cricket" >Cricket:</label> 
+             <input type="checkbox" id="checkbox" name="cricket">
+                           <!--football check-box -->
+           <label for="checkbox" id="football" >Football:</label> 
+             <input type="checkbox" id="checkbox" name="football">
+                            <!--hockey check-box -->
+           <label for="checkbox" id="hockey" >Hockey:</label> 
+             <input type="checkbox" id="checkbox" name="hockey">
+        </div> <br>
+
+        <!--dropdown/select-->
+        <div>
+            <label for="select">Your highest educational qualification:</label>
+            <select name="edu_qualify" id="select">
+                <option value="SSC"> SSC </option>
+                <option value="HSC"> HSC </option>
+                <option value="UG">  UG  </option>
+                <option value="PG">  PG  </option>
+                <option value="PhD"> PhD </option>
+            </select> 
+        </div> <br>  
+
+        <!--Radio Button-->
+        <label for="radio">Gender:</label> &nbsp;
+          <input type="radio" name="gender" id="radio" value="Male"  /> Male
+          <input type="radio" name="gender" id="radio" value="Female"/> Female 
+          <input type="radio" name="gender" id="radio" value="other" /> Other 
+        <br><br>
+
+        <!--Text Area-->
+        <label for="textarea">Feedback:</label> <br>
+        <textarea name="feedback" id="textarea" placeholder="Good!" cols="20" rows="3"></textarea> <br><br>
+
+        <!--Submit Button-->
+        <button type="submit">Submit</button>
     </form>
 
 </body>
