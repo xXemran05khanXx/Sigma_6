@@ -1,0 +1,25 @@
+
+/*Font weigth scale: 100-900*/
+.normal {
+    font-weight: 400; /* normal */
+}
+.bold {
+    font-weight: 900; /* bold */
+}
+.light {
+    font-weight: 100; /* light */
+}
+
+/*Text Decoration */
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+a {
+    text-decoration: none;
+}
