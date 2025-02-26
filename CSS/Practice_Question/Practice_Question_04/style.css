@@ -1,0 +1,20 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: #1b74e4;
+}
+.userbtn {
+    color: white;
+    background-color: #3e8bea;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+#searchbtn {
+    color: white;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 10px;
+}
