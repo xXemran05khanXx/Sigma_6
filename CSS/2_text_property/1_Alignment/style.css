@@ -1,0 +1,53 @@
+h1 {
+
+    align-items: center;
+    text-align: center;
+    
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+.align-text {
+
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    background-color: #FFC196;
+    color: black;
+  
+}
+
+.align-text > .text-left {
+
+   text-align: left;
+
+}
+
+.align-text > .text-center {
+
+    text-align: center;
+
+}
+
+.align-text > .text-right {
+
+    text-align: right;
+
+}
+
+.align-text > .text-justify {
+
+    text-align: justify;
+
+}
+
+

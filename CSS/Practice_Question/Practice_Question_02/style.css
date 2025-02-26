@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+ }
+
+.container div {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: black 1px solid;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_01 {
+    background-color: rgb(255, 255, 0);
+}
+
+.box_02 {
+    background-color: #0000ff;
+}
