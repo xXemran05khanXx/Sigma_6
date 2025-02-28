@@ -1,10 +1,14 @@
 * {
   font-family: 'Courier New', Courier, monospace ;
-  background-color: #989898;
+  padding: 0;
 }
 
 h1, h3 {
     color: #b92827;
+}
+
+header {
+    background-color: #ff7f7f;
 }
 
 #login {
@@ -44,4 +48,48 @@ input[type="text"] {
 
 input[type="password"] {
     color: #107dd6;
+}
+
+/*Pseudo class*/
+
+button:hover {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+h3:hover {
+    text-decoration: none;
+    text-shadow: 0 0 5px #fd6c6c; 
+}
+
+button:active {
+    background-color: #2747b9;
+    color: white;
+}
+
+input[type="radio"]:checked + label {
+    color: hsl(208, 100%, 40%);
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+
+    background-color: #cbcbcb;
+}
+
+/*Pseudo element*/
+
+h1::first-letter {
+    font-size: 2em;
+    color: #b92827;
+}
+
+p::first-line {
+    font-size: 1.5em;
+    color: #107dd6;
+}
+
+p::selection {
+    background-color: #b92827;
+    color: white;
 }
