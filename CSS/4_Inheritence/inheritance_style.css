@@ -1,0 +1,12 @@
+div {
+    background-color: yellow;
+}
+input,button {
+    background-color: inherit;
+}
+h2 {
+    background-color: rebeccapurple;
+}
+button:hover {
+    background-color: black;
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+body {
+
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.animate-1 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(7, 255, 61); 
+}
+
+.box-one {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+
+ /*   animation-name: animate-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0s;
+    animation-iteration-count: infinite;  */
+
+    animation: animate-1 2s ease-in 1s infinite;
+    
+}
+
+.box-two {
+    height: 25px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(7, 255, 61); 
+    animation: animate-2 5s ease-in 1s infinite;
+}
+
+
+@keyframes animate-1 {
+    from { 
+         font-size: 15px;
+         width: 100%;
+    }
+    to {
+         font-size: 20px;
+            width: 80%;
+            border-radius: 10%;
+            color: aquamarine;
+    }
+}
+
+@keyframes animate-2 {
+    0% { 
+         width: 10%;
+         opacity: 0.5;
+    }
+    50% {
+         width: 50%;
+            opacity: 0.8;
+    }
+    100% {
+         width: 100%;
+            opacity: 1;
+    }
+}
